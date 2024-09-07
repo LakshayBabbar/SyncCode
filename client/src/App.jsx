@@ -7,6 +7,8 @@ const App = () => {
     <div className='w-full h-screen bg-gradient-to-r from-slate-400 to-violet-900'>
       <Routes>
         <Route path='/' element={<Home/>} ></Route>
+        <Route path='/room'></Route>
+        <Route path='/lobby'></Route>
       </Routes>
     </div>
   )
