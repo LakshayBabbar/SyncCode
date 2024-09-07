@@ -7,11 +7,7 @@ const App = () => {
   return (
     <div
       className="w-full min-h-screen"
-      style={{
-        backgroundImage: `url(${picture})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-      }}
+      
     >
       <Routes>
         <Route path="/" element={<Home />}></Route>
